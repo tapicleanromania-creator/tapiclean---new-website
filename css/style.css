@@ -1662,3 +1662,7 @@ img{ max-width: 100%; display:block; }
   }
 }
 
+@media (max-width: 920px){
+  .nav, .nav-social{ display:none; }
+  .nav-toggle{ display:inline-flex; }
+}
