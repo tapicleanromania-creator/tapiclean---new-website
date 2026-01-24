@@ -32,76 +32,82 @@
 </head>
 
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="../index.html" class="logo">
-        <img src="../img/logo.png" alt="TapiClean" width="140" height="40" />
-      </a>
+  <!-- ======= HEADER / NAV ======= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="img/logo.png" alt="TapiClean" width="140" height="40" />
+    </a>
 
-      <div class="header-right">
-        <nav class="nav" aria-label="Navigație principală">
-          <div class="nav-item has-dropdown">
-            <button class="nav-link nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
-              Servicii <span class="chev">▾</span>
-            </button>
+    <!-- Grupul din dreapta: meniu + social + contact + burger -->
+    <div class="header-right">
+      <nav class="nav" aria-label="Navigație principală">
+        <div class="nav-item has-dropdown">
+          <button class="nav-link nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+            Servicii <span class="chev">▾</span>
+          </button>
 
-            <div class="dropdown" role="menu" aria-label="Servicii">
-              <a href="curatare-canapele.html">Curățare canapele</a>
-              <a href="curatare-saltele.html">Curățare saltele</a>
-              <a href="curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
-              <a href="curatare-interior-auto.html">Curățare interior auto</a>
-              <a href="urgente.html">Urgențe</a>
-              <a href="uscarea-tapiteriei.html">Uscarea tapițeriei</a>
-            </div>
+          <div class="dropdown" role="menu" aria-label="Servicii">
+            <a role="menuitem" href="servicii/curatare-canapele.html">Curățare canapele</a>
+            <a role="menuitem" href="servicii/curatare-saltele.html">Curățare saltele</a>
+            <a role="menuitem" href="servicii/curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
+            <a role="menuitem" href="servicii/curatare-interior-auto.html">Curățare interior auto</a>
+            <a role="menuitem" href="servicii/urgente.html">Urgențe</a>
+            <a role="menuitem" href="servicii/uscarea-tapiteriei.html">Uscarea tapițeriei</a>
           </div>
-
-          <a href="../preturi.html">Prețuri</a>
-          <a href="../galerie.html">Galerie</a>
-          <a href="../blog/index.html">Blog</a>
-          <a href="../despre.html">Despre</a>
-        </nav>
-
-        <div class="nav-social">
-          <a href="https://www.facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M13.5 3H11a4 4 0 0 0-4 4v3H5v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2.5z" />
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/tapiclean.brasov" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="4" y="4" width="16" height="16" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
-              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
-              <circle cx="17" cy="7" r="1.2" fill="currentColor" />
-            </svg>
-          </a>
         </div>
 
-        <a href="../contact.html" class="btn btn-primary">Contact</a>
+        <a href="..preturi.html">Prețuri</a>
+        <a href="..galerie.html">Galerie</a>
+        <a href="..blog/index.html">Blog</a>
+        <a href="..despre.html">Despre</a>
+      </nav>
+
+      <!-- Social icons -->
+      <div class="nav-social">
+        <a href="https://www.facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.5 3H11a4 4 0 0 0-4 4v3H5v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2.5z" />
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/tapiclean.brasov?igsh=cWhscDR0Zmh5ZTJs&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+            <circle cx="17" cy="7" r="1.2" fill="currentColor" />
+          </svg>
+        </a>
       </div>
 
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+
+      <!-- Buton mobil (burger) -->
       <button class="nav-toggle" aria-label="Deschide meniul" aria-expanded="false" aria-controls="mobile-nav">☰</button>
     </div>
+  </div>
 
-    <!-- Meniu mobil -->
-    <div id="mobile-nav" class="mobile-nav" hidden>
-      <details class="mobile-dropdown">
-        <summary>Servicii</summary>
-        <a href="curatare-canapele.html">Curățare canapele</a>
-        <a href="curatare-saltele.html">Curățare saltele</a>
-        <a href="curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
-        <a href="curatare-interior-auto.html">Curățare interior auto</a>
-        <a href="urgente.html">Urgențe</a>
-        <a href="uscarea-tapiteriei.html">Uscarea tapițeriei</a>
-      </details>
+  <!-- Meniu mobil -->
+  <div id="mobile-nav" class="mobile-nav" hidden>
+    <details class="mobile-dropdown">
+      <summary>Servicii</summary>
+      <a href="servicii/curatare-canapele.html">Curățare canapele</a>
+      <a href="servicii/curatare-saltele.html">Curățare saltele</a>
+      <a href="servicii/curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
+      <a href="servicii/curatare-interior-auto.html">Curățare interior auto</a>
+      <a href="servicii/urgente.html">Urgențe</a>
+      <a href="servicii/uscarea-tapiteriei.html">Uscarea tapițeriei</a>
+    </details>
 
-      <a href="../preturi.html">Prețuri</a>
-      <a href="../galerie.html">Galerie</a>
-      <a href="../blog/index.html">Blog</a>
-      <a href="../despre.html">Despre</a>
-      <a href="../contact.html" class="btn btn-primary">Contact</a>
-    </div>
-  </header>
+    <a href="..preturi.html">Prețuri</a>
+    <a href="..galerie.html">Galerie</a>
+    <a href="..blog/index.html">Blog</a>
+    <a href="..despre.html">Despre</a>
+
+    <!-- pe mobil putem păstra Contact aici SAU îl scoți dacă e deja sus -->
+    <a href="contact.html" class="btn btn-primary">Contact</a>
+  </div>
+</header>
 
   <main>
     <!-- HERO serviciu -->
