@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 🔁 Schimbă titlul + descrierea pentru fiecare serviciu -->
+  <title>Galerie - Lucrări de curățare profesională tapițerii în Brașov</title>
+  <meta name="description" content="Curățare profesională canapele, saltele, scaune, fotolii și interior auto în Brașov. Eliminare pete și mirosuri. Programări rapide." />
+
+  <!-- SEO basic -->
+  <link rel="canonical" href="https://tapiclean.ro/" />
+
+  <!-- Open Graph (pentru Facebook/WhatsApp) -->
+  <meta property="og:title" content="TapiClean - Curățare tapițerii în Brașov" />
+  <meta property="og:description" content="Curățare profesională canapele, saltele și tapițerii. Rezultate vizibile + igienizare." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tapiclean.ro/" />
+  <meta property="og:image" content="https://tapiclean.ro/img/og-cover.jpg" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+
+  <!-- Schema.org (LocalBusiness + social profiles) -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "TapiClean", "url": "https://tapiclean.ro/", "telephone": "+40 744 112 555", "email": "tapiclean.romania@gmail.com", "areaServed": ["Brașov", "Săcele", "Râșnov"], "address": {"@type": "PostalAddress", "addressLocality": "Brașov", "addressRegion": "BV", "addressCountry": "RO"}, "sameAs": ["https://www.facebook.com/profile.php?id=61577792320747", "https://www.instagram.com/tapiclean.brasov"]}</script>
+
+<!-- Favicon -->
+<link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="img/favicon/favicon-32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="img/favicon/favicon-16.png" sizes="16x16">
+<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#0b1d3a">
+
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="TapiClean" width="140" height="40" />
+      </a>
+    
+      <!-- Grupul din dreapta: meniu + social + contact -->
+      <div class="header-right">
+        <nav class="nav" aria-label="Navigație principală">
+          <div class="nav-item has-dropdown">
+            <button class="nav-link nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+              Servicii <span class="chev">▾</span>
+            </button>
+          
+            <div class="dropdown" role="menu" aria-label="Servicii">
+              <a role="menuitem" href="servicii/curatare-canapele.html">Curățare canapele</a>
+              <a role="menuitem" href="servicii/curatare-saltele.html">Curățare saltele</a>
+              <a role="menuitem" href="servicii/curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
+              <a role="menuitem" href="servicii/curatare-interior-auto.html">Curățare interior auto</a>
+              <a role="menuitem" href="servicii/urgente.html">Urgențe</a>
+              <a role="menuitem" href="servicii/uscarea-tapiteriei.html">Uscarea tapițeriei</a>
+            </div>
+          </div>
+        </div>
+          <a href="preturi.html">Prețuri</a>
+          <a href="galerie.html">Galerie</a>
+          <a href="blog/index.html">Blog</a>
+          <a href="despre.html">Despre</a>
+        </nav>
+    
+        <!-- Social icons (în bară, ca TopDog) -->
+        <div class="nav-social">
+          <a href="https://www.facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.5 3H11a4 4 0 0 0-4 4v3H5v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2.5z" />
+            </svg>
+          </a>
+    
+          <a href="https://www.instagram.com/tapiclean.brasov?igsh=cWhscDR0Zmh5ZTJs&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2" />
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+              <circle cx="17" cy="7" r="1.2" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+    
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </div>
+    
+      <!-- Buton mobil (rămâne separat) -->
+      <button class="nav-toggle" aria-label="Deschide meniul" aria-expanded="false">☰</button>
+    </div>  
+
+    <!-- Buton mobil -->
+    <button class="nav-toggle" aria-label="Deschide meniul" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+  </div>
+
+  <!-- Meniu mobil -->
+  <div id="mobile-nav" class="mobile-nav" hidden>
+    <details class="mobile-dropdown">
+      <summary>Servicii</summary>
+      <a href="servicii/curatare-canapele.html">Curățare canapele</a>
+      <a href="servicii/curatare-saltele.html">Curățare saltele</a>
+      <a href="servicii/curatare-scaune-fotolii.html">Curățare scaune și fotolii</a>
+      <a href="servicii/curatare-interior-auto.html">Curățare interior auto</a>
+      <a href="servicii/urgente.html">Urgențe</a>
+      <a href="servicii/uscarea-tapiteriei.html">Uscarea tapițeriei</a>
+    </details>
+
+    <a href="preturi.html">Prețuri</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="blog/index.html">Blog</a>
+    <a href="despre.html">Despre</a>
+    <a href="contact.html" class="btn btn-primary">Contact</a>
+  </div>
+</header>
+
+  <main>
+    <!-- HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="location-badge">
+          <span class="location-icon">📍</span>
+          Brașov și împrejurimi
+        </div>  
+
+        <h1>Galerie <span class="text-gradient">Înainte / După</span></h1>
+        <p class="page-lead">
+          Lucrări reale, rezultate vizibile. Dacă vrei o estimare rapidă, trimite 1-2 poze pe WhatsApp.
+        </p>
+
+        <div class="page-hero-actions">
+          <a class="btn btn-primary" href="contact.html">Trimite poze</a>
+          <a class="btn btn-ghost" href="preturi.html">Vezi prețurile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID -->
+    <section class="section section-services">
+      <div class="container">
+        <header class="section-head">
+          <h2>Rezultate</h2>
+        </header>
+
+        <div class="gallery-page-grid">
+
+          <!-- ITEM 1 -->
+          <article class="ba-card">
+            <div class="ba-head">
+              <h3>Canapea</h3>
+              <div class="ba-tags">
+                <span class="tag">pete</span>
+                <span class="tag">igienizare</span>
+              </div>
+            </div>
+
+            <div class="ba-grid">
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/Canapea înainte.jpg" alt="Canapea - înainte" loading="lazy" />
+                <figcaption>Înainte</figcaption>
+              </figure>
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/Canapea dupa.jpg" alt="Canapea - după" loading="lazy" />
+                <figcaption>După</figcaption>
+              </figure>
+            </div>
+
+            <p class="ba-note">Curățare în profunzime + uniformizare.</p>
+          </article>
+
+          <!-- ITEM 2 -->
+          <article class="ba-card">
+            <div class="ba-head">
+              <h3>Saltea</h3>
+              <div class="ba-tags">
+                <span class="tag">împrospătare</span>
+                <span class="tag">pete</span>
+              </div>
+            </div>
+
+            <div class="ba-grid">
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/Saltea inainte.jpg" alt="Saltea - înainte" loading="lazy" />
+                <figcaption>Înainte</figcaption>
+              </figure>
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/Saltea dupa.jpg" alt="Saltea - după" loading="lazy" />
+                <figcaption>După</figcaption>
+              </figure>
+            </div>
+
+            <p class="ba-note">Igienizare + reducerea încărcării din fibre.</p>
+          </article>
+
+          <!-- ITEM 3 -->
+          <article class="ba-card">
+            <div class="ba-head">
+              <h3>Scaune</h3>
+              <div class="ba-tags">
+                <span class="tag">set</span>
+                <span class="tag">uniformizare</span>
+              </div>
+            </div>
+
+            <div class="ba-grid">
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/scaun-1-inainte.jpg" alt="Înainte - scaun" loading="lazy" />
+                <figcaption>Înainte</figcaption>
+              </figure>
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/scaun-1-dupa.jpg" alt="După - scaun" loading="lazy" />
+                <figcaption>După</figcaption>
+              </figure>
+            </div>
+
+            <p class="ba-note">Rezultat uniform pe set (diferențele se văd imediat).</p>
+          </article>
+
+          <!-- ITEM 4 -->
+          <article class="ba-card">
+            <div class="ba-head">
+              <h3>Urgență (extracție apă)</h3>
+              <div class="ba-tags">
+                <span class="tag">extracție</span>
+                <span class="tag">rapid</span>
+              </div>
+            </div>
+
+            <div class="ba-grid">
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/urgenta-1-inainte.jpg" alt="Înaintee - urgență" loading="lazy" />
+                <figcaption>Înainte</figcaption>
+              </figure>
+              <figure class="ba-shot">
+                <img src="../TapiClean - new website/img/before-after/urgenta-1-dupa.jpg" alt="După - urgență" loading="lazy" />
+                <figcaption>După</figcaption>
+              </figure>
+            </div>
+
+            <p class="ba-note">Intervenție rapidă pentru reducerea umidității.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Vrei să faci o programare?</h2>
+          <p>Contactează-ne și noi îți răspundem în cel mai scurt timp cu estimarea de timp și preț pentru curățarea la domiciliu.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="contact.html">Contact</a>
+          <a class="btn btn-ghost" href="tel:+40744112555">Sună</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="img/logo.png" alt="TapiClean" width="140" height="40" />
+        <p class="muted">
+          Curățare profesională tapițerii la domiciliu în Brașov.
+        </p>
+        <!--Butoane retele sociale-->
+      <!-- SOCIAL MEDIA -->
+    <div class="footer-social">
+      <a href="https://www.facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M13.5 3H11a4 4 0 0 0-4 4v3H5v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2.5z" />
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/tapiclean.brasov?igsh=cWhscDR0Zmh5ZTJs&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <!-- conturul pătratului -->
+          <rect
+            x="4"
+            y="4"
+            width="16"
+            height="16"
+            rx="5"
+            ry="5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <!-- cercul din mijloc (lentila) -->
+          <circle
+            cx="12"
+            cy="12"
+            r="4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <!-- punctul mic din colț -->
+          <circle
+            cx="17"
+            cy="7"
+            r="1.2"
+            fill="currentColor"
+          />
+        </svg>
+      </a>      
+    </div>
+      </div>
+
+      <div>
+        <h3>Pagini</h3>
+        <ul>
+          <li><a href="preturi.html">Prețuri</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="../TapiClean - new website/blog/index.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Servicii</h3>
+        <ul>
+          <li><a href="servicii/curatare-canapele.html">Curățare canapele</a></li>
+          <li><a href="servicii/curatare-saltele.html">Curățare saltele</a></li>
+          <li><a href="servicii/curatare-scaune-fotolii.html">Curățare scaune și fotolii</a></li>
+          <li><a href="servicii/curatare-interior-auto.html">Curățare interior auto</a></li>
+          <li><a href="servicii/urgente.html">Urgențe</a></li>
+          <li><a href="servicii/uscarea-tapiteriei.html">Uscarea tapițeriei</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="confidentialitate.html">Confidențialitate</a></li>
+          <li><a href="termeni.html">Termeni</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+        </ul>
+      <!-- BUTOANE ANPC / LITIGII -->
+      <div class="anpc-banners">
+        <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">
+          <img src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sal.svg"
+         alt="Soluționarea Alternativă a Litigiilor">
+        </a>
+
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">
+          <img src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sol.svg"
+         alt="Soluționarea Online a Litigiilor">
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted">© 2025</span> TapiClean. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+</body>
+</html>
