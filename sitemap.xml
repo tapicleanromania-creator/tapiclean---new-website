@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.tapiclean.ro/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pagini principale -->
+  <url>
+    <loc>https://www.tapiclean.ro/preturi</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/galerie</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/contact</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/despre</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/confidentialitate</loc>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/termeni</loc>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/cookies</loc>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Servicii -->
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/curatare-canapele</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/curatare-saltele</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/curatare-scaune-fotolii</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/curatare-interior-auto</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/urgente</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/servicii/uscare-tapiterie</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://www.tapiclean.ro/blog/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/blog/cum-scoti-mirosul-de-urina-din-canapea</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tapiclean.ro/blog/pete-dificile-pe-canapea</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
