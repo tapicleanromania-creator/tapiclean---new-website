@@ -15,47 +15,53 @@
   <meta property="og:url" content="https://tapiclean.ro/blog/" />
   <meta property="og:image" content="https://tapiclean.ro/img/og-cover.jpg" />
 
+  <!-- Twitter (opțional, dar ok să existe) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://tapiclean.ro/img/og-cover.jpg" />
+
+  <!-- CSS / JS -->
   <link rel="stylesheet" href="../css/style.css" />
   <script defer src="../js/main.js"></script>
 
+  <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "TapiClean",
-      "url": "https://tapiclean.ro",
-      "logo": "https://tapiclean.ro/img/logo.png",
-      "image": "https://tapiclean.ro/img/og-cover.jpg",
-      "telephone": "+40744112555",
-      "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Brașov",
-        "addressCountry": "RO"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "09:00",
-          "closes": "20:00"
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/profile.php?id=61577792320747",
-        "https://www.instagram.com/tapiclean.brasov"
-      ]
-    }
-    </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "CleaningService",
+    "name": "TapiClean",
+    "url": "https://tapiclean.ro",
+    "logo": "https://tapiclean.ro/img/logo.png",
+    "image": "https://tapiclean.ro/img/og-cover.jpg",
+    "telephone": "+40744112555",
+    "priceRange": "$$",
+    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brașov",
+      "addressRegion": "BV",
+      "addressCountry": "RO"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61577792320747",
+      "https://www.instagram.com/tapiclean.brasov"
+    ]
+  }
+  </script>
 
-<!-- Favicon -->
-<link rel="icon" href="../img/favicon/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="../img/favicon/favicon-32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="../img/favicon/favicon-16.png" sizes="16x16">
-<link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
-<meta name="theme-color" content="#0b1d3a">
-
+  <!-- Favicon -->
+  <link rel="icon" href="../img/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="../img/favicon/favicon-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../img/favicon/favicon-16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0b1d3a" />
 </head>
 
 <body>
