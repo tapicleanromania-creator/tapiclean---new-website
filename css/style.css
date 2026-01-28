@@ -252,7 +252,7 @@ img{ max-width: 100%; display:block; }
 
 /* Hero title */
 .hero h1{
-  font-size: 56px;
+  font-size: 44px;
   line-height: 1.15;
   margin: 14px 0 18px;
   color: var(--blue-dark);
