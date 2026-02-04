@@ -2,11 +2,6 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "www.tapiclean.ro" }],
       "destination": "https://tapiclean.ro/$1",
