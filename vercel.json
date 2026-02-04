@@ -5,3 +5,14 @@
     ]
   }
   
+  {
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "has": [{ "type": "host", "value": "www.tapiclean.ro" }],
+        "destination": "https://tapiclean.ro/$1",
+        "permanent": true
+      }
+    ]
+  }
+  
