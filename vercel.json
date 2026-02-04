@@ -1,18 +1,16 @@
 {
-    "cleanUrls": true,
-    "redirects": [
-      { "source": "/index.html", "destination": "/", "permanent": true }
-    ]
-  }
-  
-  {
-    "redirects": [
-      {
-        "source": "/(.*)",
-        "has": [{ "type": "host", "value": "www.tapiclean.ro" }],
-        "destination": "https://tapiclean.ro/$1",
-        "permanent": true
-      }
-    ]
-  }
-  
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.tapiclean.ro" }],
+      "destination": "https://tapiclean.ro/$1",
+      "permanent": true
+    }
+  ]
+}
