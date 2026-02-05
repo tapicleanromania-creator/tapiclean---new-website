@@ -1689,19 +1689,3 @@ img{ max-width: 100%; display:block; }
     line-height: 1;
   }
 }
-
-/* Spacing pentru articole blog */
-.article-card p {
-  margin: 0 0 12px;
-}
-
-.article-card p:last-child {
-  margin-bottom: 0;
-}
-
-/* Spațiu între liste și restul textului */
-.article-card ul,
-.article-card ol {
-  margin: 0 0 12px;
-  padding-left: 1.2rem; /* dacă vrei indent mai clar la bullet-uri */
-}
