@@ -1689,3 +1689,21 @@ img{ max-width: 100%; display:block; }
     line-height: 1;
   }
 }
+
+/* Spacing pentru articole blog */
+.article-card h2{
+  margin-bottom: 12px;
+}
+
+.article-card h2 + p,
+.article-card h2 + ul,
+.article-card h2 + ol,
+.article-card h2 + div,
+.article-card h2 + .article-callout,
+.article-card h2 + .article-cards {
+  margin-top: 10px; /* aer după H2 */
+}
+
+.article-card h2:not(:first-of-type){
+  margin-top: 28px; /* aer înainte de H2 */
+}
