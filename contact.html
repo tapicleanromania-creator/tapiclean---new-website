@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- 🔁 Schimbă titlul + descrierea pentru fiecare serviciu -->
+  <!-- Titlu + descriere meta -->
   <title>Contact - Programează o curățare profesională | TapiClean</title>
   <meta name="description" content="Programează o curățare profesională la domiciliu în Brașov. Eliminăm pete și mirosuri. Programări rapide." />
 
@@ -178,7 +178,7 @@
         <div class="contact-grid" id="formular">
           <!-- LEFT: INFO -->
           <div class="contact-card">
-            <h2>Ce informații ajută cel mai mult</h2>
+            <h2>Ce informații ajută cel mai mult</h2> 
             <p class="muted">
               Ca să-ți dau o estimare rapidă și corectă, trimite (dacă poți) următoarele:
             </p>
@@ -223,43 +223,42 @@
               - Formspree / Netlify Forms / EmailJS / backend propriu.
               Îți zic imediat varianta cea mai simplă când vrei.
             -->
-            <form class="contact-form" action="#" method="post">
-              <div class="field">
-                <label for="name">Nume</label>
-                <input id="name" name="name" type="text" placeholder="Numele tău" required />
-              </div>
-
-              <div class="field">
-                <label for="phone">Telefon</label>
-                <input id="phone" name="phone" type="tel" placeholder="07xx xxx xxx" required />
-              </div>
-
-              <div class="field">
-                <label for="city">Localitate</label>
-                <input id="city" name="city" type="text" placeholder="Brașov / Sânpetru / Ghimbav..." required />
-              </div>
-
-              <div class="field">
-                <label for="service">Ce ai de curățat?</label>
-                <select id="service" name="service" required>
-                  <option value="" selected disabled>Alege o opțiune</option>
-                  <option value="canapea">Canapea / colțar</option>
-                  <option value="saltea">Saltea</option>
-                  <option value="scaune">Scaune / fotolii</option>
-                  <option value="pete">Curățare interior auto</option>
-                  <option value="urgenta">Urgență (apă în tapițerie)</option>
-                  <option value="uscare">Uscare tapițerie (adițional)</option>
-                  <option value="altceva">Altceva</option>
+            <form action="https://formspree.io/f/xnjbngln" method="POST" class="contact-form">
+              <label>
+                Nume, Prenume
+                <input type="text" name="name" required />
+              </label>
+            
+              <label>
+                Telefon
+                <input type="tel" name="phone" required />
+              </label>
+            
+              <label>
+                Localitate
+                <input type="text" name="city" required />
+              </label>
+            
+              <label>
+                Ce ai de curățat?
+                <select name="service" required>
+                  <option value="">Alege o opțiune</option>
+                  <option>Canapea/Colțar</option>
+                  <option>Saltea</option>
+                  <option>Scaune/Fotolii</option>
+                  <option>Interior auto</option>
+                  <option>Urgență</option>
                 </select>
-              </div>
-
-              <div class="field">
-                <label for="message">Mesaj</label>
-                <textarea id="message" name="message" rows="5" placeholder="Ex: Colțar, pată de vin, de ieri. Brașov. Aș vrea weekend." required></textarea>
-              </div>
-
-              <div class="form-actions">
-                <button class="btn btn-primary" type="submit">Trimite</button>
+              </label>
+            
+              <label>
+                Mesaj
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+            
+              <!-- opțional: unde primești răspunsul -->
+              <input type="hidden" name="_subject" value="Cerere nouă - TapiClean" />
+              <button type="submit" class="btn btn-primary">Trimite</button>
                 <a class="btn btn-ghost" href="tel:+40744112555">Sună</a>
               </div>
 
