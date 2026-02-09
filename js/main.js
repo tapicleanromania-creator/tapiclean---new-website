@@ -248,3 +248,40 @@
   // Opțional: funcție globală ca să poți pune în footer un link "Setări cookies"
   window.TAPICLEAN_openCookieSettings = openModal;
 })();
+
+
+// Formularul de contact
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".contact-form");
+  const hint = document.getElementById("formHint");
+  if (!form) return;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const btn = form.querySelector('button[type="submit"]');
+    const oldText = btn.textContent;
+    btn.textContent = "Se trimite...";
+    btn.disabled = true;
+
+    try {
+      const res = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { "Accept": "application/json" }
+      });
+
+      if (res.ok) {
+        form.reset();
+        hint.style.display = "block";
+      } else {
+        alert("Nu s-a putut trimite mesajul. Încearcă din nou sau sună-mă.");
+      }
+    } catch (err) {
+      alert("Eroare de rețea. Încearcă din nou sau sună-mă.");
+    } finally {
+      btn.textContent = oldText;
+      btn.disabled = false;
+    }
+  });
+});
