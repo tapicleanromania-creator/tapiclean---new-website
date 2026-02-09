@@ -268,14 +268,26 @@ document.addEventListener("DOMContentLoaded", () => {
       const res = await fetch(form.action, {
         method: "POST",
         body: new FormData(form),
-        headers: { "Accept": "application/json" }
+        headers: { "Accept": "application/json" },
+        redirect: "follow"
       });
 
-      if (res.ok) {
+      // ✅ Acceptăm ca succes și 200-299, și 302/303 (Formspree uneori redirecționează)
+      const ok = res.ok || res.status === 302 || res.status === 303;
+
+      if (ok) {
         form.reset();
-        hint.style.display = "block";
+        if (hint) hint.style.display = "block";
       } else {
-        alert("Nu s-a putut trimite mesajul. Încearcă din nou sau sună-mă.");
+        // încercăm să citim mesajul de eroare (dacă există)
+        let msg = "Nu s-a putut trimite mesajul. Încearcă din nou sau sună-mă.";
+        try {
+          const data = await res.json();
+          if (data && data.errors && data.errors[0] && data.errors[0].message) {
+            msg = data.errors[0].message;
+          }
+        } catch (_) {}
+        alert(msg);
       }
     } catch (err) {
       alert("Eroare de rețea. Încearcă din nou sau sună-mă.");
