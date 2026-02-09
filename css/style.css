@@ -1774,3 +1774,11 @@ img{ max-width: 100%; display:block; }
   color: #0b1d3a;
   opacity: .8;
 }
+
+/* Centrează textul în butonul Sună */
+.btn.btn-ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
