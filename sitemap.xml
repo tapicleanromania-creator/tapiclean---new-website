@@ -76,7 +76,7 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://tapiclean.ro/blog/</loc>
+    <loc>https://tapiclean.ro/blog</loc>
     <priority>0.6</priority>
   </url>
 
@@ -87,6 +87,11 @@
 
   <url>
     <loc>https://tapiclean.ro/blog/pete-dificile-pe-canapea</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tapiclean.ro/blog/trebuie-uscata-tapiteria-dupa-curatare-profesionala</loc>
     <priority>0.5</priority>
   </url>
 
