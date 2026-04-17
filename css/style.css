@@ -1686,17 +1686,17 @@ img{ max-width: 100%; display:block; }
     #mobile-nav .nav-social {
       display: flex !important;
       gap: 20px;        /* spațiu mai mare între ele */
-      padding: 16px 4%; /* aliniere cu restul meniului */
+      padding: 12px 4%; /* aliniere cu restul meniului */
     }
   
     #mobile-nav .nav-social a {
-      width: 28px;
-      height: 28px;
+      width: 24px;
+      height: 24px;
     }
   
     #mobile-nav .nav-social svg {
-      width: 28px !important;
-      height: 28px !important;
+      width: 24px !important;
+      height: 24px !important;
     }
   }
 
