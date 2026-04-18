@@ -441,6 +441,13 @@ img{ max-width: 100%; display:block; }
   border-top:1px solid var(--border);
 }
 
+/* Footer social */
+.footer-social{
+  margin-top:12px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
 
 
 
