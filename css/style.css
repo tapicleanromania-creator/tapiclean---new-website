@@ -1806,3 +1806,25 @@ img{ max-width: 100%; display:block; }
   justify-content: center;
   text-align: center;
 }
+
+/* Footer social — iconițe uniforme */
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+}
+
+.footer-social svg {
+  width: 22px;
+  height: 22px;
+  fill: rgba(10,46,92,0.75);
+  color: rgba(10,46,92,0.75);
+}
+
+/* WhatsApp — culoarea verde specifică */
+.footer-social-whatsapp svg {
+  fill: #25d366;
+  color: #25d366;
+}
