@@ -1837,8 +1837,7 @@ img{ max-width: 100%; display:block; }
 /* Instagram — gradient oficial simulat cu o culoare apropiată */
 .footer-social a[aria-label="Instagram"] svg {
   fill: none;
-  color: #E1306C;
-  stroke: #E1306C;
+  color: unset;
 }
 
 /* WhatsApp — verde oficial */
