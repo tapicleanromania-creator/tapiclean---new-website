@@ -1777,6 +1777,14 @@ img{ max-width: 100%; display:block; }
 }
 
 /* Footer social — iconițe uniforme cu culori originale */
+/* ===== FOOTER SOCIAL — culori oficiale ===== */
+.footer-social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .footer-social a {
   display: inline-flex;
   align-items: center;
@@ -1787,9 +1795,12 @@ img{ max-width: 100%; display:block; }
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+/* NU mai punem fill generic pe SVG — culorile vin pe fiecare iconiță */
 .footer-social svg {
   width: 22px;
   height: 22px;
+  fill: unset;
+  color: unset;
 }
 
 .footer-social a:hover {
@@ -1799,24 +1810,22 @@ img{ max-width: 100%; display:block; }
 
 /* Facebook — albastru oficial */
 .footer-social a[aria-label="Facebook"] svg {
-  fill: #1877F2;
-  color: #1877F2;
+  fill: #1877F2 !important;
 }
 
-/* Instagram — gradient oficial simulat cu o culoare apropiată */
+/* Instagram — gradient (setat direct în SVG, CSS nu intervine) */
 .footer-social a[aria-label="Instagram"] svg {
-  fill: none;
-  color: unset;
+  fill: none !important;
+  color: unset !important;
 }
 
 /* WhatsApp — verde oficial */
 .footer-social a[aria-label="WhatsApp"] svg {
-  fill: #25D366;
-  color: #25D366;
-  /* Micșorăm vizual WhatsApp cu 10% fiindcă desenul lui umple tot viewBox-ul */
+  fill: #25D366 !important;
   width: 20px;
   height: 20px;
 }
+
 
 /* Header social — culorile sunt setate direct pe SVG, CSS nu mai intervine */
 .nav-social a {
