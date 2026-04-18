@@ -32,34 +32,53 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "CleaningService",
-      "name": "TapiClean",
-      "url": "https://tapiclean.ro",
-      "logo": "https://tapiclean.ro/img/logo.png",
-      "image": "https://tapiclean.ro/img/og-cover.jpg",
-      "telephone": "+40744112555",
-      "priceRange": "$$",
-      "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Brașov",
-        "addressRegion": "BV",
-        "addressCountry": "RO"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "09:00",
-          "closes": "20:00"
+      "@type": "Service",
+      "name": "Curățare canapele Brașov",
+      "alternateName": "Spălare canapea la domiciliu",
+      "description": "Serviciu profesional de curățare canapele la domiciliu în Brașov și împrejurimi. Eliminare pete, murdărie acumulată și mirosuri neplăcute. Pre-tratare, curățare în profunzime și extracție.",
+      "url": "https://tapiclean.ro/servicii/curatare-canapele",
+      "provider": {
+        "@type": "CleaningService",
+        "name": "TapiClean",
+        "url": "https://tapiclean.ro",
+        "telephone": "+40744112555",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brașov",
+          "addressRegion": "BV",
+          "addressCountry": "RO"
         }
-      ],
-      "sameAs": [
-        "https://facebook.com/profile.php?id=61577792320747",
-        "https://instagram.com/tapiclean.brasov"
-      ]
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Brașov"
+      },
+      "serviceType": "Curățare tapițerie",
+      "category": "Curățare canapele",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "description": "Preț în funcție de dimensiunea și tipul canapelei"
+        },
+        "areaServed": "Brașov",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tipuri de canapele curățate",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare canapea 2 locuri" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare canapea 3 locuri" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare canapea colțar" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare canapea din piele" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare canapea microfibră" } }
+        ]
+      }
     }
     </script>
+    
   
     <!-- Favicon -->
     <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />
@@ -444,7 +463,7 @@
           Curățare profesională tapițerii la domiciliu în Brașov.
         </p>
 
-        
+
         <div class="footer-social">
           <a href="https://facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
             <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
