@@ -150,17 +150,6 @@ img{ max-width: 100%; display:block; }
   transition: opacity .2s ease, transform .2s ease;
 }
 
-.nav-social svg{
-  width:18px;
-  height:18px;
-  fill: rgba(10,46,92,0.75);
-  color: rgba(10,46,92,0.75);
-  transition: color .2s ease, fill .2s ease;
-}
-
-.nav-social a:hover{ opacity:1; transform: translateY(-1px); }
-.nav-social a:hover svg{ fill: rgba(10,46,92,1); color: rgba(10,46,92,1); }
-
 /* ---------- Dropdown (Services) ---------- */
 .has-dropdown{ position: relative; }
 
