@@ -1807,24 +1807,46 @@ img{ max-width: 100%; display:block; }
   text-align: center;
 }
 
-/* Footer social — iconițe uniforme */
+/* Footer social — iconițe uniforme cu culori originale */
 .footer-social a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 22px;
   height: 22px;
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .footer-social svg {
   width: 22px;
   height: 22px;
-  fill: rgba(10,46,92,0.75);
-  color: rgba(10,46,92,0.75);
 }
 
-/* WhatsApp — culoarea verde specifică */
-.footer-social-whatsapp svg {
-  fill: #25d366;
-  color: #25d366;
+.footer-social a:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
 }
+
+/* Facebook — albastru oficial */
+.footer-social a[aria-label="Facebook"] svg {
+  fill: #1877F2;
+  color: #1877F2;
+}
+
+/* Instagram — gradient oficial simulat cu o culoare apropiată */
+.footer-social a[aria-label="Instagram"] svg {
+  fill: none;
+  color: #E1306C;
+  stroke: #E1306C;
+}
+
+/* WhatsApp — verde oficial */
+.footer-social a[aria-label="WhatsApp"] svg {
+  fill: #25D366;
+  color: #25D366;
+  /* Micșorăm vizual WhatsApp cu 10% fiindcă desenul lui umple tot viewBox-ul */
+  width: 20px;
+  height: 20px;
+}
+
