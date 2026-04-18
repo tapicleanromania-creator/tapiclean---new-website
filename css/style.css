@@ -138,17 +138,6 @@ img{ max-width: 100%; display:block; }
   margin-left: 6px; /* small buffer after menu */
 }
 
-.nav-social a{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:18px;
-  height:18px;
-  padding:0;
-  background:transparent;
-  opacity:.85;
-  transition: opacity .2s ease, transform .2s ease;
-}
 
 /* ---------- Dropdown (Services) ---------- */
 .has-dropdown{ position: relative; }
@@ -466,14 +455,7 @@ img{ max-width: 100%; display:block; }
   opacity:.85;
   transition: opacity .2s ease, transform .2s ease;
 }
-.footer-social svg{
-  width:22px;
-  height:22px;
-  fill: rgba(10,46,92,0.75);
-  color: rgba(10,46,92,0.75);
-}
-.footer-social a:hover{ opacity:1; transform: translateY(-1px); }
-.footer-social a:hover svg{ fill: rgba(10,46,92,1); color: rgba(10,46,92,1); }
+
 
 /* ---------- Services page grid/cards ---------- */
 .section-services{
@@ -1666,30 +1648,12 @@ img{ max-width: 100%; display:block; }
   }
 
   @media (max-width: 980px) {
-    #mobile-nav .nav-social {
-      display: flex !important;
-    }
+  .site-header .nav,
+  .site-header .nav-social {
+    display: none !important;
   }
 
-  @media (max-width: 980px) {
-    #mobile-nav .nav-social {
-      display: flex !important;
-      gap: 20px;        /* spațiu mai mare între ele */
-      padding: 12px 4%; /* aliniere cu restul meniului */
-    }
-  
-    #mobile-nav .nav-social a {
-      width: 24px;
-      height: 24px;
-    }
-  
-    #mobile-nav .nav-social svg {
-      width: 24px !important;
-      height: 24px !important;
-    }
-  }
-
-  .site-header .nav-toggle{
+  .site-header .nav-toggle {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
@@ -1700,6 +1664,22 @@ img{ max-width: 100%; display:block; }
     background: #fff;
     font-size: 22px;
     line-height: 1;
+  }
+
+  #mobile-nav .nav-social {
+    display: flex !important;
+    gap: 20px;
+    padding: 12px 4%;
+  }
+
+  #mobile-nav .nav-social a {
+    width: 24px;
+    height: 24px;
+  }
+
+  #mobile-nav .nav-social svg {
+    width: 24px !important;
+    height: 24px !important;
   }
 }
 
