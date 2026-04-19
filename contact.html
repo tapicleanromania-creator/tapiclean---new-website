@@ -28,36 +28,72 @@
 
   <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "TapiClean",
-    "url": "https://tapiclean.ro",
-    "logo": "https://tapiclean.ro/img/logo.png",
-    "image": "https://tapiclean.ro/img/og-cover.jpg",
-    "telephone": "+40744112555",
-    "priceRange": "$$",
-    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brașov",
-      "addressRegion": "BV",
-      "addressCountry": "RO"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact – Programează o curățare profesională TapiClean",
+      "description": "Contactează TapiClean pentru programări de curățare tapițerie la domiciliu în Brașov. Cel mai rapid: trimite 1-2 poze pe WhatsApp și primești estimare de preț și timp.",
+      "url": "https://tapiclean.ro/contact",
+      "mainEntity": {
+        "@type": "CleaningService",
+        "name": "TapiClean",
+        "url": "https://tapiclean.ro",
+        "telephone": "+40744112555",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+40744112555",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "availableLanguage": "Romanian",
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "opens": "09:00",
+              "closes": "20:00"
+            }
+          },
+          {
+            "@type": "ContactPoint",
+            "url": "https://wa.me/40744112555",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "availableLanguage": "Romanian",
+            "description": "WhatsApp – cel mai rapid mod de contact. Trimite 1-2 poze și primești estimare de preț și timp."
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brașov",
+          "addressRegion": "BV",
+          "addressCountry": "RO"
+        },
+        "areaServed": [
+          "Brașov",
+          "Sânpetru",
+          "Ghimbav",
+          "Cristian",
+          "Hărman",
+          "Săcele",
+          "Râșnov",
+          "Prejmer",
+          "Bod"
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        "sameAs": [
+          "https://facebook.com/profile.php?id=61577792320747",
+          "https://instagram.com/tapiclean.brasov",
+          "https://wa.me/40744112555"
+        ]
       }
-    ],
-    "sameAs": [
-      "https://facebook.com/profile.php?id=61577792320747",
-      "https://instagram.com/tapiclean.brasov"
-    ]
-  }
-  </script>
+    }
+    </script>
+    
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />
@@ -334,6 +370,65 @@
     </section>
 
     <!-- FAQ CONTACT -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Lucrați doar în Brașov?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "În principal Brașov și împrejurimi: Sânpetru, Ghimbav, Cristian, Hărman, Săcele, Râșnov, Prejmer, Bod. Spune-ne localitatea și confirmăm dacă putem ajunge la tine."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Cât durează uscarea după curățare?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De regulă 6-12 ore, în funcție de material și ventilație. Pentru uscare accelerată există opțiuni adiționale cu echipament profesional de uscare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pot primi o estimare de preț doar din poze?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "De obicei da. Trimite 1-2 poze clare pe WhatsApp la 0744 112 555 și îți dăm un preț orientativ rapid. Prețul final se confirmă la fața locului."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Cum programez o curățare tapițerie în Brașov?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cel mai rapid prin WhatsApp: trimite 1-2 poze cu ce ai de curățat, localitate și când ai dori programarea. Poți și suna direct la 0744 112 555 sau completa formularul de pe site."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ce informații sunt necesare pentru o programare?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1-2 poze clare din față și zona cu problema, tipul obiectului (canapea, colțar, saltea, scaune, fotoliu etc.), tipul problemei (pete, mirosuri, urgență, împrospătare), localitate și când dorești programarea."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Oferiți servicii de urgență pentru canapea sau saltea udă?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Da. Pentru urgențe apă în canapea, saltea sau alte tapițerii, contactați imediat pe WhatsApp sau telefon la 0744 112 555 și menționați URGENȚĂ. Intervenim cât mai rapid posibil."
+            }
+          }
+        ]
+      }
+      </script>
+      
+
     <section class="section section-muted">
       <div class="container">
         <header class="section-head">
@@ -342,20 +437,27 @@
         </header>
 
         <div class="faq">
-          <details>
-            <summary>Lucrați doar în Brașov?</summary>
-            <p>În principal Brașov și împrejurimi. Spune-ne localitatea și îți confirmăm dacă putem ajunge la tine.</p>
-          </details>
-
-          <details>
-            <summary>Cât durează uscarea?</summary>
-            <p>De regulă 6-12 ore, în funcție de material și ventilație. Pentru uscare accelerată există opțiuni adiționale.</p>
-          </details>
-
-          <details>
-            <summary>Pot primi o estimare doar din poze?</summary>
-            <p>De obicei da, vă putem da un preț final.</p>
-          </details>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Lucrați doar în Brașov?</button>
+            <div class="faq-answer" hidden>
+              <p>În principal Brașov și împrejurimi. Spune-ne localitatea și îți confirmăm dacă putem ajunge la tine.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Cât durează uscarea?</button>
+            <div class="faq-answer" hidden>
+              <p>De regulă 6-12 ore, în funcție de material și ventilație. Pentru uscare accelerată există opțiuni adiționale.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Pot primi o estimare doar din poze?</button>
+            <div class="faq-answer" hidden>
+              <p>De obicei da, vă putem da un preț final.</p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
