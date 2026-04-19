@@ -303,7 +303,7 @@ document.querySelectorAll('.faq-question').forEach(btn => {
   btn.addEventListener('click', () => {
     const answer = btn.nextElementSibling;
     const isOpen = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', !isOpen);
+    btn.setAttribute('aria-expanded', String(!isOpen));
     answer.hidden = isOpen;
   });
 });
