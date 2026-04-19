@@ -26,5 +26,6 @@
     { "source": "/curatare-auto", "destination": "/servicii/curatare-interior-auto", "statusCode": 301 },
     { "source": "/curatare-auto.html", "destination": "/servicii/curatare-interior-auto", "statusCode": 301 },
     { "source": "/servicii/uscarea-tapiteriei.html", "destination": "/servicii/uscarea-tapiteriei", "statusCode": 301 }
+    { "source": "/uscarea-tapiteriei", "destination": "/servicii/uscarea-tapiteriei", "statusCode": 301 }
   ]
 }
