@@ -28,36 +28,202 @@
 
   <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "TapiClean",
-    "url": "https://tapiclean.ro",
-    "logo": "https://tapiclean.ro/img/logo.png",
-    "image": "https://tapiclean.ro/img/og-cover.jpg",
-    "telephone": "+40744112555",
-    "priceRange": "$$",
-    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brașov",
-      "addressRegion": "BV",
-      "addressCountry": "RO"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
-      }
-    ],
-    "sameAs": [
-      "https://facebook.com/profile.php?id=61577792320747",
-      "https://instagram.com/tapiclean.brasov"
-    ]
-  }
-  </script>
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Prețuri curățare tapițerie Brașov – TapiClean",
+      "url": "https://tapiclean.ro/preturi",
+      "description": "Prețuri orientative pentru servicii de curățare tapițerie la domiciliu în Brașov. Prețul final se stabilește după dimensiune, material și grad de murdărie.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Curățare canapea",
+            "description": "Curățare în profunzime cu extracție. Include evaluare, aspirare, pre-tratare pete și zone încărcate, curățare și extracție uniformizare.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "150",
+              "highPrice": "250",
+              "offerCount": "2",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Canapea 2 locuri",
+                  "price": "150",
+                  "priceCurrency": "RON",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "150", "maxPrice": "180" }
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Canapea colțar",
+                  "price": "200",
+                  "priceCurrency": "RON",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "200", "maxPrice": "250" }
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Curățare saltea",
+            "description": "Igienizare și împrospătare controlată. Include pre-tratare pete, curățare în profunzime cu extracție și recomandări de uscare.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "150",
+              "highPrice": "220",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Saltea 90x200",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "150", "maxPrice": "170" },
+                  "priceCurrency": "RON"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Saltea 160x200",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "200", "maxPrice": "220" },
+                  "priceCurrency": "RON"
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Curățare scaune și fotolii",
+            "description": "Curățare precisă pe zonă, tratament pete ezut/spătar, rezultate uniforme pe set.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "50",
+              "highPrice": "100",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Scaun dining",
+                  "price": "50",
+                  "priceCurrency": "RON"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Fotoliu",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "80", "maxPrice": "100" },
+                  "priceCurrency": "RON"
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Curățare interior auto",
+            "description": "Aspirare completă scaune, mochete, portbagaj. Curățare textil cu extracție, tratare pete. Detailing bord, uși, geamuri și praguri cu protecție UV.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "450",
+              "highPrice": "800",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Întreținere interior – aspirare + detailing",
+                  "price": "450",
+                  "priceCurrency": "RON"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Interior complet – scaune, mochete, detailing",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "600", "maxPrice": "800" },
+                  "priceCurrency": "RON"
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Service",
+            "name": "Urgențe extracție apă",
+            "description": "Intervenții rapide pentru extracție apă și reducere umiditate. Include evaluare risc miros și umezeală.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "200",
+              "highPrice": "300",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Canapea udată local",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "200", "maxPrice": "250" },
+                  "priceCurrency": "RON"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Saltea îmbibată",
+                  "priceSpecification": { "@type": "PriceSpecification", "minPrice": "250", "maxPrice": "300" },
+                  "priceCurrency": "RON"
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Service",
+            "name": "Uscare tapițerie – adițional",
+            "description": "Serviciu opțional după curățare sau urgențe. Recomandat iarna sau când dorești utilizare în aceeași zi.",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "RON",
+              "lowPrice": "40",
+              "highPrice": "80",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "name": "Uscare Express (20% din comandă)",
+                  "price": "40",
+                  "priceCurrency": "RON",
+                  "description": "Exemplu: comandă 200 lei → Express 40 lei"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Uscare Completă (40% din comandă)",
+                  "price": "80",
+                  "priceCurrency": "RON",
+                  "description": "Exemplu: comandă 200 lei → Complet 80 lei"
+                }
+              ]
+            },
+            "provider": { "@type": "CleaningService", "name": "TapiClean", "url": "https://tapiclean.ro" }
+          }
+        }
+      ]
+    }
+    </script>
+    
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />
@@ -498,7 +664,7 @@
           Curățare profesională tapițerii la domiciliu în Brașov.
         </p>
 
-        
+
         <div class="footer-social">
           <a href="https://facebook.com/profile.php?id=61577792320747" target="_blank" rel="noopener" aria-label="Facebook">
             <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
