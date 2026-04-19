@@ -28,36 +28,55 @@
 
   <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "TapiClean",
-    "url": "https://tapiclean.ro",
-    "logo": "https://tapiclean.ro/img/logo.png",
-    "image": "https://tapiclean.ro/img/og-cover.jpg",
-    "telephone": "+40744112555",
-    "priceRange": "$$",
-    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brașov",
-      "addressRegion": "BV",
-      "addressCountry": "RO"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Urgențe extracție apă tapițerie Brașov",
+      "alternateName": "Extracție apă canapea sau saltea Brașov",
+      "description": "Intervenții rapide de urgență pentru extracție apă din canapea, saltea sau tapițerie în Brașov. Ideal după inundații, accidente sau infiltrații. Răspuns rapid, echipamente profesionale.",
+      "url": "https://tapiclean.ro/servicii/urgente",
+      "provider": {
+        "@type": "CleaningService",
+        "name": "TapiClean",
+        "url": "https://tapiclean.ro",
+        "telephone": "+40744112555",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brașov",
+          "addressRegion": "BV",
+          "addressCountry": "RO"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Brașov"
+      },
+      "serviceType": "Intervenție de urgență tapițerie",
+      "category": "Extracție apă tapițerie",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "description": "Preț în funcție de suprafața afectată și urgența intervenției"
+        },
+        "areaServed": "Brașov",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tipuri de intervenții de urgență",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extracție apă canapea udă" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extracție apă saltea udă" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extracție apă fotoliu sau scaun" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Intervenție după infiltrație sau inundație" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Intervenție după accident (lichide vărsate)" } }
+        ]
       }
-    ],
-    "sameAs": [
-      "https://facebook.com/profile.php?id=61577792320747",
-      "https://instagram.com/tapiclean.brasov"
-    ]
-  }
-  </script>
+    }
+    </script>
+    
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />

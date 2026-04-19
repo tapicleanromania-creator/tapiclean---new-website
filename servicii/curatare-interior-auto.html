@@ -25,36 +25,57 @@
 
   <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "TapiClean",
-    "url": "https://tapiclean.ro",
-    "logo": "https://tapiclean.ro/img/logo.png",
-    "image": "https://tapiclean.ro/img/og-cover.jpg",
-    "telephone": "+40744112555",
-    "priceRange": "$$",
-    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brașov",
-      "addressRegion": "BV",
-      "addressCountry": "RO"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Curățare interior auto Brașov",
+      "alternateName": "Detailing interior auto Brașov",
+      "description": "Serviciu profesional de curățare interior auto în Brașov. Curățare scaune, banchetă, mochete, portbagaj și tratament pete și mirosuri. Detailing interior la domiciliu sau la locul tău.",
+      "url": "https://tapiclean.ro/servicii/curatare-interior-auto",
+      "provider": {
+        "@type": "CleaningService",
+        "name": "TapiClean",
+        "url": "https://tapiclean.ro",
+        "telephone": "+40744112555",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brașov",
+          "addressRegion": "BV",
+          "addressCountry": "RO"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Brașov"
+      },
+      "serviceType": "Curățare tapițerie auto",
+      "category": "Detailing interior auto",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "description": "Preț în funcție de tipul mașinii și suprafețele tratate"
+        },
+        "areaServed": "Brașov",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicii curățare interior auto",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune auto tapițate" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune auto din piele" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare banchetă spate auto" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare mochete și podea auto" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare portbagaj auto" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Eliminare mirosuri interior auto" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratament pete interior auto" } }
+        ]
       }
-    ],
-    "sameAs": [
-      "https://facebook.com/profile.php?id=61577792320747",
-      "https://instagram.com/tapiclean.brasov"
-    ]
-  }
-  </script>
+    }
+    </script>
+    
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />

@@ -28,36 +28,56 @@
 
   <!-- Schema.org (LocalBusiness / CleaningService) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CleaningService",
-    "name": "TapiClean",
-    "url": "https://tapiclean.ro",
-    "logo": "https://tapiclean.ro/img/logo.png",
-    "image": "https://tapiclean.ro/img/og-cover.jpg",
-    "telephone": "+40744112555",
-    "priceRange": "$$",
-    "areaServed": ["Brașov", "Săcele", "Râșnov", "Cristian", "Ghimbav", "Hărman", "Prejmer", "Bod", "Sânpetru"],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Brașov",
-      "addressRegion": "BV",
-      "addressCountry": "RO"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Curățare scaune și fotolii Brașov",
+      "alternateName": "Spălare scaune tapițate la domiciliu",
+      "description": "Serviciu profesional de curățare scaune și fotolii la domiciliu în Brașov și împrejurimi. Eliminare pete, murdărie acumulată și mirosuri. Curățare precisă și uniformă pe toate tipurile de materiale.",
+      "url": "https://tapiclean.ro/servicii/curatare-scaune-fotolii",
+      "provider": {
+        "@type": "CleaningService",
+        "name": "TapiClean",
+        "url": "https://tapiclean.ro",
+        "telephone": "+40744112555",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brașov",
+          "addressRegion": "BV",
+          "addressCountry": "RO"
+        }
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Brașov"
+      },
+      "serviceType": "Curățare tapițerie",
+      "category": "Curățare scaune și fotolii",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "description": "Preț per scaun sau fotoliu, în funcție de material și grad de murdărie"
+        },
+        "areaServed": "Brașov",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tipuri de scaune și fotolii curățate",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune de dining tapițate" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare fotoliu individual" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare fotoliu recliner" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune de birou tapițate" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune din microfibră" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Curățare scaune din piele sau piele ecologică" } }
+        ]
       }
-    ],
-    "sameAs": [
-      "https://facebook.com/profile.php?id=61577792320747",
-      "https://instagram.com/tapiclean.brasov"
-    ]
-  }
-  </script>
+    }
+    </script>
+    
 
   <!-- Favicon -->
   <link rel="icon" href="/img/favicon/favicon.ico" sizes="any" />
