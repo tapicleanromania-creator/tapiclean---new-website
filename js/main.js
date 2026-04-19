@@ -297,3 +297,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// FAQ toggle
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !isOpen);
+    answer.hidden = isOpen;
+  });
+});

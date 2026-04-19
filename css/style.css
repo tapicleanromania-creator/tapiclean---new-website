@@ -1849,3 +1849,25 @@ img{ max-width: 100%; display:block; }
   transform: translateY(-1px);
 }
 }
+
+.faq-item {
+  border-bottom: 1px solid var(--border-color, #eee);
+  padding: 0;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: 16px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+.faq-answer {
+  padding-bottom: 16px;
+  color: #555;
+}
