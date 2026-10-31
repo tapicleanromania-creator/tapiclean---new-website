@@ -20,6 +20,8 @@
     }
   ],
   "redirects": [
+    { "source": "/blog/canapea-plina-de-mucegai-curatare-aerisire", "destination": "/blog/mucegai-curatare-canapele", "statusCode": 301 },
+    { "source": "/blog/canapea-plina-de-mucegai-curatare-aerisire.html", "destination": "/blog/mucegai-curatare-canapele", "statusCode": 301 },
     { "source": "/index.html", "destination": "/", "permanent": true },
     { "source": "/curatare-canapele", "destination": "/servicii/curatare-canapele", "statusCode": 301 },
     { "source": "/curatare-canapele.html", "destination": "/servicii/curatare-canapele", "statusCode": 301 },
